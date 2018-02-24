@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Exempel</title>
+<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
+<style>
+* { box-sizing: border-box; }
+body, figure { margin: 0; }
+img { display: block; width: 100%; }
+
+body {
+	font-family: Avenir, Corbel, sans-serif;
+	text-align: center;
+}
+h1 {
+	font-family: 'UnifrakturCook', Avenir, Corbel, sans-serif;
+	margin: 0.125em;
+	font-size: 4em;
+	margin: 0.5em;
+	text-align: center;
+
+}
+
+figure {
+	padding: 5px;
+}
+
+figcaption {
+	display: block;
+	margin: 5;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	top: -3em;
+	text-shadow: 1px 1px 1px #000;
+	height: 0;
+	padding: 0;
+	font-size: 1.125em;
+}
+
+@media (min-width: 36em) {
+	figure {
+		display: block;
+		float: left;
+		width: 33.3333333333333%;
+	}
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Foto</h1>
+
+<main>
+<figure>
+	<img src="img/thumbs/bmx.jpg" alt="A gray wolf" />
+	<figcaption>Ett foto ovanifrån på en bmx bana.</figcaption>
+</figure>
+
+<figure>
+	<img src="img/thumbs/demokarta.jpg" alt="A red wolf" />
+	<figcaption>En webbkarta byggd på open source. Php och javascipt-biblioteket OpenLayers.</figcaption>
+</figure>
+
+<figure>
+	<img src="img/thumbs/drone.jpg" alt="A white wolf" />
+	<figcaption>Bild på en DJI Inspire 1.</figcaption>
+</figure>
+
+<figure>
+	<img src="img/thumbs/flygfoto.jpg" alt="Another reddish wolf" />
+	<figcaption>Snedbild på en hängbro i ett vackert landskap.</figcaption>
+</figure>
+
+</main>
+
+
+</body>
+</html>

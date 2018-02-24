@@ -1,0 +1,90 @@
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<title>Demosgis</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+<img class="bodyimg" width="auto" src="img/uas.jpg" srcset="img/uas.jpg 1000w, img/uas.jpg 2000w">
+	<header class="mainHeader">	
+	<nav>
+		<ul>
+		    <li class="active"><a href="#hem">Hem</a></li>
+		    <li><a href="http://demosgis.net/geografisk.html">Tjänster GIS</a></li>
+			<li><a href="http://demosgis.net/flygfoto.html">Tjänster flygfoto</a></li>
+			<li><a href="http://demosgis.net/kontakt.html">Kontakt</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<div class="mainContent">
+		<div class="content">
+			<article class="topContent">
+				<img class="logo" src="http://demosgis.net/img/logo_cirkel.png" alt="Tjänster" style="float:right;margin-right:0%;margin-bottom:0%;margin-top:auto;padding-left:5%;padding-right:5%;padding-bottom:2%;width:280px;height:220px">
+				<header>
+					<h2 id="om">Om företaget</a></h2>
+				</header>
+				<content>
+					<p>Demosgis är företaget som specialiserar sig inom GIS (Geografiska Informationssystem) framförallt Open Source GIS och tjänster med UAS (obemannade luftfartyg), även kallade drönare.
+					Företaget har 10 års erfarenhet med geografisk information och 5 år inom Open Source GIS. Demosgis har erfarenhet och kunskap i att införa Open Source GIS i 
+					en kommunal miljö med lyckat resultat.</p>
+					<p>Insamling av geografisk information med hjälp av ett UAS har utvecklats de senaste 5 åren. Att tillämpa den geografiska informationen i 
+					en Open Source GIS-miljö är idag inga problem.
+					Demosgis har operatörstillstånd från transportstyrelsen att flyga obemannade luftfartyg samt har ansvarsförsäkring
+					hos Inter-Hannover. Innehar även F-skattesedel.</p>
+				</content>
+			</article>
+			<article class="middleContent">
+				<img src="http://demosgis.net/icon/basic_signs.png" srcset="http://demosgis.net/icon/basic_signs.png 2000w" alt="vagskal" style="float:left;margin-right:0%;margin-bottom:0%;margin-top:auto;padding-left:0%;padding-right:2%;padding-bottom:1%;width:64px;height:64px;">
+				<header>	
+					<h3 id="varfor">Vad menas med Open Source GIS? Open Source kopplat till befintliga GIS-lösningar</h3>
+				</header>
+				</br>
+				<content>
+					Open source = öppen källkod, enkelt översatt innebär det att alla kan få tillgång till den mjukvara som har utvecklats 						
+					samt att källkoden måste delas beroende på vilken lincens källkoden är tillskriven. Att källkoden är öppen, innebär också att 
+					det öppnas möjligheter för utveckling och anpassa till redan tillgängliga IT-miljöer. Dessutom finns det miljontals kreativa människor
+					runt om i världen som deltar i utvecklingsarbetet. 
+					Därför har Open source GIS-lösningar utvecklats till att bli konkurrenskraftiga mot de etablerade GIS-systemen. 
+					Fler organisationer ser möjligheter med en Open source-lösning. Exempelvis kan en sådan lösning skapa transparens och ge 
+					möjligheter att välja hur GIS-miljön skall se ut. Open Source-miljöer kan också kopplas till befintliga GIS-lösningar.</p>
+				</content>
+			</article>
+			<article class="bottomContent">
+			<img src="http://demosgis.net/icon/basic_gear.png" srcset="http://demosgis.net/icon/basic_gear.png 2000w" alt="Tjänster" style="float:left;margin-right:0%;margin-bottom:0%;margin-top:auto;padding-left:0%;padding-right:1%;padding-bottom:2%;width:64px;height:64px;">
+				<header>
+					<h2 id="tjanster">Tjänster</a></h2>
+				</header>
+				</br>
+				<content>
+					<p>Demosgis erbjuder tjänster såsom utveckling av karttjänster, utbildning i QGIS - ett kraftfullt desktop GIS-program som har en global 
+					användning, utveckling av 3D-modeller med hjälp av UAS och den senaste webb-utvecklingen inom 3D, karteringar med färska och 
+					högupplösta ortofoton, snedbilder från olika vinklar och mycket annat inom geografisk information. Matrialet kan användas vid utredningar av exempelvis nybyggnation, utveckling av nya stadsdelsområden, 
+					beräkningar av volym, area och längd. <a href="http://demosgis.net/geografisk.html"><b>Läs mer om tjänster inom Geografisk information</b></a> eller
+					<a href="http://demosgis.net/flygfoto.html"><b> tjänster inom flygfotografering.</b></a></p>
+				</content>
+			</article>
+			<article class="youtubeContent">
+			<header>
+				<h2 id="tjanster">Video</a></h2>
+			</header>
+			<content>
+				<p>En video som sammanfattar de tjänster som Demosgis utför. Se videoklippet i helskärm.</p>
+				<iframe width="250" height="250" src="https://www.youtube.com/embed/YNvQA6JkOqs?rel=0" frameborder="0" allowfullscreen></iframe>			
+			</content>
+			</article> 
+		</div>
+	</div>
+	
+	<footer class="mainFooter">
+		<p>Copyright &copy: 2015 <a href="#" title="demosgis">demosgis.net</a></p>
+	</footer>
+
+</body>
+</html>

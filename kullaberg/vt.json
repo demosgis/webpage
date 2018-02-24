@@ -1,0 +1,65 @@
+﻿{
+    "default": {
+        "author": "Demosgis",
+        "firstScene": "himmelstorp"
+    },
+    
+    "scenes": {
+        "himmelstorp": {
+            "title": "Himmelstorp",
+            "preview": "./kullaberg-preview.jpg",
+            "panorama": "./pano-kullaberg.jpg",
+            "pitch": -30,
+            "hotSpots": [
+                {
+                    "pitch": -135,
+                    "yaw": -170,
+                    "type": "info",
+                    "text": "Detta är Himmelstorpsgården."
+                },
+                {
+                    "pitch": -140,
+                    "yaw": -180,
+                    "type": "info",
+                    "text": "Här får du lite mer information om Himmelstorpsgården. Detta är en länk till karta och fler fotografier.",
+                    "URL": "http://demosgis.net/kartor/view/map/?repository=kullaleden&project=Kullaleden&zoom=6&lat=7614412.65736&lon=1396299.59154&layers=BTTTTTTTTT"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 20,
+                    "type": "scene",
+                    "text": "Farhult",
+                    "sceneId": "farhult"
+                }
+            ]
+        },
+        
+        "farhult": {
+            "title": "Farhult",
+            "preview": "./preview.jpg",
+            "panorama": "./panorama.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -2,
+                    "yaw": -200,
+                    "type": "scene",
+                    "text": "Himmelstorp",
+                    "sceneId": "himmelstorp"
+                },
+                {
+                    "pitch": -160,
+                    "yaw": -50,
+                    "type": "info",
+                    "text": "Detta är Farhults hamn. Här finns riktigt bra krabbfiske för barnen."
+                },
+                {
+                    "pitch": -160,
+                    "yaw": 120,
+                    "type": "info",
+                    "text": "Detta är Farhults by. Här finns även en länk till karta och fler fotografier.",
+                    "URL": "http://demosgis.net/kartor/view/map/?repository=kullaleden&project=Kullaleden&zoom=5&lat=7604022.262&lon=1416061.45298&layers=BTTTTTTTTT"
+                }
+            ]
+        }
+    }
+}

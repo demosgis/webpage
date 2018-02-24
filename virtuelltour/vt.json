@@ -1,0 +1,64 @@
+﻿{
+    "default": {
+        "author": "Demosgis",
+        "firstScene": "kullaberg"
+    },
+    
+    "scenes": {
+        "pondCube": {
+            "title": "Kullaberg",
+            "preview": "./kullaberg-preview.jpg",
+            "panorama": "./pano-kullaberg.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -135,
+                    "yaw": -170,
+                    "type": "info",
+                    "text": "Detta är Himmelstorpsgården."
+                },
+                {
+                    "pitch": -140,
+                    "yaw": -180,
+                    "type": "info",
+                    "text": "Här får du lite mer information om Himmelstorpsgården. Detta är en länk till övrig information om platsen.",
+                    "URL": "http://www.hembygd.se/kullen/hus-och-gardar/himmelstorps-hembygdsgard/"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 20,
+                    "type": "scene",
+                    "text": "Farhult",
+                    "sceneId": "kullaberg"
+                }
+            ]
+        },
+
+        "kullaberg": {
+            "title": "Farhult",
+            "preview": "./preview.jpg",
+            "panorama": "./panorama.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -2,
+                    "yaw": -200,
+                    "type": "scene",
+                    "text": "Kullaberg",
+                    "sceneId": "pondCube"
+                },
+                {
+                    "pitch": -160,
+                    "yaw": -50,
+                    "type": "info",
+                    "text": "Detta är Farhults hamn. Här finns riktigt bra krabbfiske för barnen."
+                },
+                {
+                    "pitch": -160,
+                    "yaw": 120,
+                    "type": "info",
+                    "text": "Detta är Farhults by. En länk till övrig information om platsen finns om du klickar här.",
+                    "URL": "https://sv.wikipedia.org/wiki/Farhults_socken"
+                }
+            ]
+        }
+    }
+}

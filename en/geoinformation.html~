@@ -1,0 +1,74 @@
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<title>Samples</title>
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="css/exempel.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+<img class="bodyimg" width="auto" src="img/uas.jpg" srcset="img/uas.jpg 1000w, img/uas.jpg 2000w">
+	<header class="mainHeader">	
+	<nav>
+		<ul>
+		    <li class="active"><a href="#flygfoto">Geografisk information</a></li>
+		    <li><a href="http://demosgis.net/en/aerial.html">Flygfoto</a></li>
+			<li><a href="http://demosgis.net/en/">Hem</a></li>
+		</ul>
+	</nav>
+	</header>
+	<div class="mainContent">
+		<div class="content">
+			<article class="topContent">
+				<img class="logo" src="http://demosgis.net/img/logo_utv.png" srcset="http://demosgis.net/img/logo_utv.png 2000w" alt="Tjänster" style="float:left;margin-right:0%;margin-bottom:0%;margin-top:auto;padding-left:0%;padding-right:2%;padding-bottom:5%;width:150px;height:75px;">
+			<header>
+			<h2 id="geo"><a href="#" title=om">Geografisk information</a></h2>
+			</header>
+			<content>
+			<p>Geografisk information finns i många olika former. Här visas exempel på 
+					"vanliga" kartor skapade med QGIS (statiska kartor) men också kartor som är 
+					interaktiva (webbkartor) och 3D-modeller.Nedan ses geografisk information 
+					i olika former från 3D-modeller till ortofoto och analyser av geografisk data.</p>
+			</content>
+			</article>
+			<article class="middleContent">
+				<img src="http://demosgis.net/img/thumbs/bmx.png" srcset="http://demosgis.net/img/thumbs/bmx.png 1000w, http://demosgis.net/img/thumbs/bmx.png 2000w" alt="3D-modell bmx" style="float:left;margin-right:2%;margin-bottom:4%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;"></a>	
+				<header>
+					<h2 id="1st"><a href="#" title=foto1">Bmx bana i 3D</a></h2>
+				</header>
+				<content>
+					<p>Detta är en 3D-modell över en bmx-bana skapad med foto. Denna teknik 
+					kallas fotogrammetri. Den geografiska informationen
+					i en sådan modell är höjddata, area, längd och volym. För att se modellen krävs
+					en modern webbläsare. Välj Google Chrome eller Mozilla Firefox. <a href="http://demosgis.net/bmx/dem.html" target="_blank"><b>Klicka här för modellen</b></a></p>
+				</content>
+			</article>
+			<article class="bottomContent">
+				<img src="http://demosgis.net/img/thumbs/webbkarta.png" srcset="http://demosgis.net/img/thumbs/webbkarta.png 1000w, http://demosgis.net/img/thumbs/webbkarta.png 2000w" alt="Webbkarta" style="float:left;margin-right:2%;margin-bottom:4%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;">
+				<header>
+				<h2 id="1st"><a href="#" title="foto2">Webbkarta med ortofoto</a></h2>
+				</header>
+				<content>
+				<p>Detta är en webbkarta med en samling ortofoton, även detta med 
+					fotogrammetrisk teknik. Dessutom visas ortofotona i en webbkarta. 
+					Allt gjort med vertyg från open source. <a href="http://demosgis.net/lm/lizmap/www/index.php/view/map/?repository=flygfoto&project=flygfoto" target="_blank"><b>Klicka här för webbkarta.</b></a></p>
+				</content>
+			</article>
+		</div>
+	</div>
+	<h3><a href="#geo">Upp</a></h3>
+	<footer class="mainFooter">
+		<p>Copyright &copy: 2015 <a href="#" title="demosgis">demosgis.net</a></p>
+	</footer>
+
+
+</body>
+  
+</html>

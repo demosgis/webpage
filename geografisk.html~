@@ -1,0 +1,175 @@
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<title>Geografisk Information</title>
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="css/exempel.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+<img class="bodyimg" width="auto" src="img/uas.jpg" srcset="img/uas.jpg 1000w, img/uas.jpg 2000w">
+	<header class="mainHeader">	
+	<nav>
+		<ul>
+		    <li class="active"><a href="#Geo">Geografisk information</a></li>
+			<li><a href="http://demosgis.net/">Hem</a></li>
+		</ul>
+	</nav>
+	</header>
+	<div class="mainContent">
+		<div class="content">
+			<article class="topContent">
+			<header>
+			<h2 id="geo">Tjänster geografisk information</a></h2>
+			</header>
+			<br>
+			<content>
+			<h3>Detta kan företaget erbjuda:</h3>
+			<p><b>*</b> Demosgis kan hjälpa till att införa och utveckla Open Source GIS-miljöer i organisationer, både offentligt och privat.</p>
+			<p><b>*</b> Samla in, analysera och publicera geografisk data som utredningsmaterial i dokument eller interaktivt om så önskas.</p> 
+			<p><b>-</b> Insamling kan ske via UAS-flygningar för att få fram högupplösta ortofoton, höjdmodeller eller beräkna volym, area och längd eller
+					   via insamling på marken med app.</p>
+			<p><b>*</b> Karteringar för olika ändamål förrutom ovannämnda användningsområden.</p>
+			<p><b>*</b> Hjälpa till vid lagring och organisering av data i spatiala databaser, exempelvis postgis. Arbete mot 
+						en spatial databas i ett GIS-verktyg.</p>
+			<p><b>*</b> Hjälpa till vid analys av statistik och publicering av statistik på kartor.</p>
+			<p><b>*</b> Utbilda i och ge support i hur man använder GIS-system.</p>
+			<p><b>*</b> Kom ihåg, GIS har ett stort användningsområde och det är endast fantasin som sätter gränser.</p>
+			<p>Nedan visas exempel på "vanliga" kartor skapade med QGIS (statiska kartor) men också kartor som är 
+					interaktiva (webbkartor) och 3D-modeller.</p>
+					<p>Fler exempel kommer.</p>
+			</content>
+			</article>
+			<article class="middleContent">
+				<img src="http://demosgis.net/img/thumbs/bmx.png" srcset="http://demosgis.net/img/thumbs/bmx.png 1000w, http://demosgis.net/img/thumbs/bmx.png 2000w" alt="3D-modell bmx" style="float:left;margin-right:2%;margin-bottom:2%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;"></a>	
+				<header>
+					<h2 id="1st"><a href="http://demosgis.net/bmx/dem.html" target="_blank" title="foto1">Bmx bana i 3D</a></h2>
+				</header>
+				<content>
+					<p>Detta är en 3D-modell över en bmx-bana skapad med foto. Denna teknik 
+					kallas fotogrammetri. Den geografiska informationen
+					i en sådan modell är höjddata, area, längd och volym. För att se modellen krävs
+					en modern webbläsare. Välj Google Chrome eller Mozilla Firefox. Modellen är relativt stor.
+					Att ladda in den i webbläsaren kan ta lite tid.<a href="http://demosgis.net/bmx/dem.html" target="_blank"><b>Klicka här för modellen</b></a></p>
+				</content>
+			</article>
+            <article class="networkContent">
+				<img src="http://demosgis.net/img/thumbs/natverksanalys_liten.JPG" srcset="http://demosgis.net/img/thumbs/natverksanalys_liten.JPG 1000w, http://demosgis.net/img/thumbs/natverksanalys_liten.JPG" alt="Nätverksmodell" style="float:left;margin-right:2%;margin-bottom:2%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;"></a>	
+				<header>
+					<h2 id="1st"><a href="http://demosgis.net/img/thumbs/natverksanalys.JPG" target="_blank" title="natverk">Nätverksanalyser</a></h2>
+				</header>
+				<content>
+					<p>Med hjälp av ett vägnät kan nätverksanalyser utföras där tidsberäkningar studeras för att exempelvis kunna
+                    beräkna företags kundunderlag, skolors upptagningsområden, tillgång till grönytor och idrottsplatser eller beräkna hur långt ett utryckningsfordon når på några minuter. Exempelvis 
+                    går det att plocka fram hur många hushåll en Ica-butik har inom 10 minuters gångavstånd eller vilken väg som är
+                    snabbast att köra för att komma fram till målet. <a href="http://demosgis.net/img/thumbs/natverksanalys.JPG" target="_blank"><b>Klicka här för kartbild.</b></a></p>
+				</content>
+			</article>
+            <article class="analysContent">
+				<img src="http://demosgis.net/img/thumbs/analysbild_liten.jpg" srcset="http://demosgis.net/img/thumbs/analysbild_liten.jpg 1000w, http://demosgis.net/img/thumbs/analysbild_liten.jpg" alt="Analys och filter" style="float:left;margin-right:2%;margin-bottom:2%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;"></a>	
+				<header>
+					<h2 id="1st"><a href="http://demosgis.net/img/thumbs/analysbild.jpg" target="_blank" title="twitterfilter">Automatiserade geografiska analyser</a></h2>
+				</header>
+				<content>
+					<p>Oavsett om data är komplicerad, enkel, i stora volymer eller få objekt finns det alltid en lösning. 
+                    Demosgis kan hjälpa till att analysera och presentera geografisk data med hjälp av flera olika geografiska 
+                    verktyg beroende på efterfrågan. I bilden visas ett automatiserat flöde, där 1 miljon punkter hämtas in via ett pytonscript,
+                    kopplas in i en skräddarsydd modell som behandlar punkterna via text- och geografiska alegoritmer och slutligen läses in i en databas som sedan kan
+                    publiseras på en webbplats, webbkarta eller i ett dokument som beslutsunderlag. Utan knapptryckningar
+                    kan du få ett resultat av det du vill veta.
+                       <a href="http://demosgis.net/img/thumbs/analysbild.jpg" target="_blank"><b>Klicka här för kartbild.</b></a></p>
+				</content>
+			</article>
+			<article class="bottomContent">
+				<img src="http://demosgis.net/img/thumbs/webbkarta.png" srcset="http://demosgis.net/img/thumbs/webbkarta.png 1000w, http://demosgis.net/img/thumbs/webbkarta.png 2000w" alt="Webbkarta" style="float:left;margin-right:2%;margin-bottom:2%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;">
+				<header>
+				<h2 id="1st"><a href="http://demosgis.net/kartor/view/map/?repository=bmx&project=bmx" target="_blank" title="foto2">Webbkarta BMX</a></h2>
+				</header>
+				<content>
+				<p>Detta är webbkartor med olika teman. Allt gjort med vertyg från open source. All typ av data kan visas i en webbkarta. Dessutom fungerar
+                dessa webbkartor i mobiltelefoner och surfplattor.
+                Med webbkartor kan man snabbt få en översikt av exempelvis data som behövs inom en organisation både offentligt och internt.
+                Detta exempel visar en bmxbana.
+                <a href="http://demosgis.net/kartor/view/map/?repository=bmx&project=bmx" target="_blank"><b>Klicka här för webbkartan.</b></a></p>
+				</content>
+			</article>
+            <article class="kullaledenContent">
+				<img src="http://demosgis.net/img/thumbs/kullaleden.jpg" srcset="http://demosgis.net/img/thumbs/kullaleden.jpg 1000w, http://demosgis.net/img/thumbs/kullaleden.jpg 2000w" alt="Webbkarta" style="float:left;margin-right:2%;margin-bottom:2%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;">
+				<header>
+				<h2 id="1st"><a href="http://demosgis.net/kartor/view/map/?repository=kullaleden&project=Kullaleden" target="_blank" title="foto2">Webbkarta Kullaleden</a></h2>
+				</header>
+				<content>
+				<p>Detta är webbkartor med olika teman. Allt gjort med vertyg från open source. All typ av data kan visas i en webbkarta. Dessutom fungerar
+                dessa webbkartor i mobiltelefoner och surfplattor.
+                Med webbkartor kan man snabbt få en översikt av exempelvis data som behövs inom en organisation både offentligt och internt.
+                Detta exempel visar en bmxbana.
+                <a href="http://demosgis.net/kartor/view/map/?repository=kullaleden&project=Kullaleden" target="_blank"><b>Klicka här för webbkartan.</b></a></p>
+				</content>
+			</article>
+			<article class="hojdContent">
+				<img src="http://demosgis.net/img/thumbs/hojdkarta_liten.jpg" srcset="http://demosgis.net/img/thumbs/hojdkarta_liten.jpg 1000w, http://demosgis.net/img/thumbs/hojdkarta_liten.jpg 2000w" alt="hojdkarta" style="float:left;margin-right:2%;margin-bottom:2%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:130px;">
+				<header>
+				<h2 id="1st"><a href="http://demosgis.net/img/thumbs/hojdkarta.jpg" target="_blank" title="foto2">Höjdkarta</a></h2>
+				</header>
+				<content>
+				<p>Detta är en karta som visar höjdkurvor och höjddata från en höjdmodell. Höjderna och höjdmodellen
+				är skapade med en UAS samt QGIS.<a href="http://demosgis.net/img/thumbs/hojdkarta.jpg" target="_blank"><b>Klicka här för större karta.</b></a></p>
+				</content>
+			</article>
+			<article class="ndviContent">
+				<img src="http://demosgis.net/img/thumbs/ndvi_liten.jpg" srcset="http://demosgis.net/img/thumbs/ndvi_liten.jpg 1000w, http://demosgis.net/img/thumbs/ndvi_liten.jpg 2000w" alt="hojdkarta" 
+				style="float:left;margin-right:2%;margin-bottom:2%;padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:130px;">
+				<header>
+				<h2 id="2st"><a href="http://demosgis.net/img/thumbs/ndvi.jpg" target="_blank" title="foto2">NDVI-kartering</a></h2>
+				</header>
+				<content>
+				<p>Detta är en karta som visar resultatet från en flygning med nirkamera. 
+				Det är en analys av växtlighet där man med hjälp av reflekterande ljus från växter som inte kan upptäckas av
+				mänskliga ögon, kan fångas upp med hjälp av en nirkamera (nära infrarött ljus). 
+				I en ndvi-analys kan man plocka fram områden som har mer eller mindre växtlighet. 
+				NDVI är en förkortning av Normalized Difference Vegetation Index. 
+				Värden man tittar på i ett NDVI-index är mellan -1 och 1 där -1 är 
+				lägsta växtligheten på skalan och 1 är högsta växtligheten. 
+				<a href="http://demosgis.net/img/thumbs/ndvi.jpg" target="_blank"><b>Klicka här för större karta.</b></a></p>
+				</content>
+			</article>
+            <article class="threedbuildingContent">
+			<header>
+				<h2 id="3dbyggnad">Byggnader i 3D</a></h2>
+			</header>
+			<content>
+				<p>En video på vad som är möjligt inom 3D med en drönare och fotogrammetri.</p>
+				<iframe width="350" height="300" src="https://www.youtube.com/embed/BVPY1rIuNPw?rel=0" frameborder="0" allowfullscreen></iframe>			
+			</content>
+			</article>
+			<article class="fotogammetriContent">
+			<header>
+				<h2 id="fotogrammetri">Inspektera tak med fotogrammetri</a></h2>
+			</header>
+			<content>
+				<p>Med hjälp av fotogrammetri kan objekt inspekteras för att hitta fel. Se videoklippet i helskärm.</p>
+				<iframe width="350" height="300" src="https://www.youtube.com/embed/fWlvnzsegQM?rel=0" frameborder="0" allowfullscreen></iframe>			
+			</content>
+			</article>
+		</div>
+	</div>
+	<h3><a href="#geo">Upp</a></h3>
+	<footer class="mainFooter">
+		<p>Copyright &copy: 2015 <a href="#" title="demosgis">demosgis.net</a></p>
+	</footer>
+
+
+</body>
+  
+</html>

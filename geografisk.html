@@ -1,0 +1,178 @@
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<title>Geografisk Information</title>
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="css/exempel.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+<img class="bodyimg" width="auto" src="img/logo_bord.png">
+	<header class="mainHeader">	
+	<nav>
+		<ul>
+		    <li class="active"><a href="#Geo">Tjänster</a></li>
+			<li><a href="http://demosgis.net/">Hem</a></li>
+            <li><a href="https://www.facebook.com/Demosgis/" target="_blank" title="Demosgis på Facebook"><img src="http://demosgis.net/img/facebook_small.png" alt="Facebook" 
+            style="float:left;margin-right:2%;margin-bottom:2%;
+			padding-left:1%;padding-right:2%;padding-bottom:4%;width:20px;height:20px;"/></a></li>
+		</ul>
+	</nav>
+	</header>
+	<div class="mainContent">
+		<div class="content">
+			<article class="topContent">
+			<header>
+			<h2 id="geo">Tjänster geografisk information</a></h2>
+			</header>
+			<br>
+			<content>
+			<h3>Detta kan Demosgis erbjuda och mycket mer:</h3>
+			<p><b>*</b> hjälpa till att införa och utveckla Open Source GIS-miljöer i organisationer, både offentligt och privat.</p>
+			<p><b>*</b> Samla in, analysera och publicera geografisk data som utredningsmaterial i dokument eller interaktivt om så önskas.</p> 
+			<p><b>-</b> Insamling kan ske via UAS-flygningar för att få fram högupplösta ortofoton, höjdmodeller eller beräkna volym, area och längd eller
+					   via insamling på marken med app.</p>
+			<p><b>*</b> Karteringar för olika ändamål förrutom ovannämnda användningsområden.</p>
+			<p><b>*</b> Hjälpa till vid lagring och organisering av data i spatiala databaser, exempelvis postgis. Arbete mot 
+						en spatial databas i ett GIS-verktyg.</p>
+			<p><b>*</b> Hjälpa till vid analys av statistik och publicering av statistik på kartor.</p>
+			<p><b>*</b> Utbilda i och ge support i hur man använder GIS-system.</p>
+			<p><b>*</b> Kom ihåg, GIS har ett stort användningsområde och det är endast fantasin som sätter gränser.</p>
+			<p>Nedan visas exempel på "vanliga" kartor skapade med QGIS (statiska kartor) men också kartor som är 
+					interaktiva (webbkartor) och 3D-modeller.</p>
+			</content>
+			</article>
+            <article class="arkitekt">
+                <header>
+					<h2 id="1st"><a href="http://demosgis.net/img/thumbs/arkitekt.jpg" target="_blank" title="Arkitektur">Geografisk information för arkitektur och mäklare</a></h2>
+				</header>
+				<content>
+					<p>Demosgis har tillsammans med Arkitektkontoret i Jonstorp AB arbetat fram en metod för arkitekter för att kunna använda
+                    geografisk data framställt med drönare. Data kan användas och underlätta för arkitekter i ett planeringsstadie.</p>
+                    <p>För mäklare som skall visa upp fastigheter med flera objekt, kan en kartering ge en god överblick. Annan data såsom fastighetsgränser
+                    kan läggas ovanpå för att få en uppfattning om omgivningen runt.</p>
+				</content>
+				<img src="http://demosgis.net/img/thumbs/arkitekt.jpg" alt="Arkitekt" ></a>	
+            </article>
+            <article class="cesiumContent">
+			<header>
+				<h2 id="3dbyggnad">3D-GIS</a></h2>
+			</header>
+			<content>
+				<p>Med Cesiumjs kan stora städer i 3D byggas upp och visualiseras. Jag erbjuder att bygga upp en stad i 3D med exempelvis 
+                OpenStreetMap-data. Finns redan tillgänglig data såsom byggnader med höjddata kan jag även utgå från det. Det bästa med Cesiumjs
+                är att annan geografisk data kan läggas på för att visualisera tillgänglighet i en stad, eller varför inte nya byggprojekt. Här finns också 
+                möjlighet för att utföra skugganalyser och annat.
+			</content>
+                <img src="http://demosgis.net/img/thumbs/cesium.png" alt="cesium">
+			</article>
+            <article class="ndviContent">
+            <header>
+				<h2 id="2st"><a href="http://demosgis.net/img/thumbs/ndvi_orto.jpeg" target="_blank" title="foto2">Karteringar för precisionsjordbruk</a></h2>
+				</header>
+				<content>
+				<p>Kartera jordbruksfälten och hitta samband mellan olika faktorer för att öka avkastningen.
+                Det finns massor med faktorer som kan påverka hur grödorna växer. Exempelvis kan dräneringen om den 
+                ej fungerar korrekt, påverka skörden. Likaså kan skadedjur påverka. Med hjälp av drönare kan man kartera stora områden
+                och få en översikt hur växtligheten ser ut i nuläget. Detta är en karta som visar resultatet från en flygning med nirkamera. 
+				Det är en analys av växtlighet där man med hjälp av reflekterande ljus från växter som inte kan upptäckas av
+				mänskliga ögon, kan fångas upp med hjälp av en nirkamera (nära infrarött ljus). 
+				I en ndvi-analys kan man plocka fram områden som har mer eller mindre växtlighet. 
+				NDVI är en förkortning av Normalized Difference Vegetation Index. 
+				Värden man tittar på i ett NDVI-index är mellan -1 och 1 där -1 är 
+				lägsta växtligheten på skalan och 1 är högsta växtligheten.</p>
+				</content>
+				<img src="http://demosgis.net/img/thumbs/ndvi_orto.jpeg" alt="NDVI">
+			</article>
+            <article class="webbkartaContent">
+            <header>
+				<h2>Samla 3D-miljöer eller annan geografisk data i en karttjänst</h2>
+			</header>
+				<content>
+				<p>Demosgis kan samla in geografisk information och lagra dessa i en karttjänst. Denna lösning samlar all information för visning. Det kan vara 3D-objekt på arenor eller karteringar för jordbruk där man
+                kan få en bättre överblick över ett geografiskt område. Karttjänsten kan vara ett underlag för beslutsfattare inom såväl det privata som offentliga. Se förändringar över tid inom stadsplaneringen eller
+                få uppdaterad information om grödan i fältet.
+                De flesta webbläsare stöds.</p><p>Jag kan också hjälpa till att sätta upp en OpenSource miljö med Qgis, postgis, Qgis server och karttjänst. 
+                Ett komplett GIS-system.</p>
+				<img src="http://demosgis.net/img/thumbs/ndviwebbkarta.JPG" alt="Webbkarta">
+                </content>
+			</article>
+            <article class="volymContent">
+            <header>
+					<h2 id="1st"><a href="http://demosgis.net/img/thumbs/volym.jpg" target="_blank" title="volymberakning">Beräkna volym och area med drönare</a></h2>
+            </header>
+				<content>
+					<p>Med en UAS kan man snabbt och effektivt beräkna volymer och area. Hur mycket material behövs för att fylla en stor grop eller uppskatta en byggnads volym?
+                    Hur mycket har man lyckats lagra över tid? Dessa frågor kan snabbt besvaras med hjälp av UAS.</p>
+				</content>
+				<img src="http://demosgis.net/img/thumbs/volym.jpg" alt="Volym"></a>	
+			</article>
+			<article class="hojdContent">
+            <header>
+				<h2 id="1st"><a href="http://demosgis.net/img/thumbs/hojd_orto_kurv.jpeg" target="_blank" title="foto2">Paket med ortofoto och höjdkarta</a></h2>
+			</header>
+				<content>
+				<p>Detta är ett paket med ortofoto, höjdmodell och höjdkurvor. Höjderna och höjdmodellen
+				är skapade med en drönare och QGIS. Demosgis erbjuder vid datainsamling, förutom högupplösta ortofoton också höjdmodeller som ingår i ett paket.</p>
+				</content>
+				<img src="http://demosgis.net/img/thumbs/hojd_orto_kurv.jpeg" alt="hojdkarta">
+			</article>
+            <article class="panoKullabergContent">
+				<img src="http://demosgis.net/img/thumbs/panokullaberg.jpg" alt="Panorama på Kullaberg">	
+				<header>
+					<h2 id="1st"><a href="http://demosgis.net/pan/kullaberg/panorama.htm" target="_blank" title="panoKullaberg">360 graders panoramasfär i webbläsaren. Platsen är Kullaberg.</a></h2>
+				</header>
+				<content>
+					<p>360 graders panoramasfärer är väldigt effektiva för att visa en översikt över ett område. Hela omgivningen kan fångas och användaren
+                    kan i panoramasfären orientera sig med datormus. I detta fall gjordes en flygning under en dimmig höstdag. Skogen är väldigt färgrann.<a href="http://demosgis.net/pan/kullaberg/panorama.htm" target="_blank"><b>Klicka här för panorama.</b></a></p>
+				</content>
+			</article>
+            <article class="bmxContent">
+				<img src="http://demosgis.net/img/thumbs/bmxramp.JPG" alt="BMX"></a>	
+				<header>
+					<h2 id="2nd"><a href="http://demosgis.net/img/thumbs/bmxramp.JPG" target="_blank" title="foto1">BMX bana innan tävling</a></h2>
+				</header>
+				<content>
+					<p>I detta det första fotot syns startrampen på en BMX bana. Ett sådant foto kan exempelvis användas 
+					i reklamsyfte för ett evenemang.</p>
+				</content>
+			</article>
+            <article class="landskapContent">
+				<img src="http://demosgis.net/img/thumbs/landskapsbild.JPG" alt="Landskapsbild"></a>
+				<header>
+				<h2 id="3rd"><a href="http://demosgis.net/img/thumbs/landskapsbild.JPG" target="_blank" title="foto2">Landskapsbild med vacker vy</a></h2>
+				</header>
+				<content>
+				<p>Det andra fotot är taget uppifrån och snett ner och ger inte bara en vacker vy, 
+				utan också en överblick över landskapet.  
+				Användningsområdet blir då ett annat.</p>
+				</content>
+			</article>
+            <article class="threedbuildingContent">
+			<header>
+				<h2 id="3dbyggnad">Byggnader i 3D</a></h2>
+			</header>
+			<content>
+				<p>En video på vad som är möjligt inom 3D med en drönare och fotogrammetri.</p>
+				<iframe src="https://www.youtube.com/embed/BVPY1rIuNPw?rel=0" frameborder="0" allowfullscreen></iframe>			
+			</content>
+			</article>
+		</div>
+	</div>
+	<h3><a href="#geo">Upp</a></h3>
+	<footer class="mainFooter">
+		<p>Copyright &copy: 2016 <a href="#" title="demosgis">demosgis.net</a></p>
+        <p><a href="https://www.facebook.com/Demosgis/" target="_blank" title="Facebook"><img src="http://demosgis.net/img/facebook_small.png" alt="Facebook" 
+    style="float:left;margin-right:2%;margin-bottom:2%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:30px;height:30px;"/></a></p>
+	</footer>
+
+
+</body>
+  
+</html>

@@ -1,0 +1,74 @@
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<title>Exempel</title>
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="css/exempel.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+<img class="bodyimg" width="auto" src="img/uas.jpg" srcset="img/uas.jpg 1000w, img/uas.jpg 2000w">
+	<header class="mainHeader">	
+	<nav>
+		<ul>
+		    <li class="active"><a href="#flygfoto">Aerial Photos</a></li>
+		    <li><a href="http://demosgis.net/en/geoinformation.html">GIS</a></li>
+			<li><a href="http://demosgis.net/en/">Home</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<div class="mainContent">
+		<div class="content">
+			<article class="topContent">
+			<img class="logo" src="http://demosgis.net/img/logo_utv.png" srcset="http://demosgis.net/img/logo_utv.png 2000w" alt="Tjänster" style="float:left;margin-right:0%;margin-bottom:0%;margin-top:auto;padding-left:0%;padding-right:2%;padding-bottom:5%;width:150px;height:75px;">
+			<header>
+				<h2 id="flygfoto"><a href="#" title=om">Aerial Photos</a></h2>
+			</header>
+			<content>
+			<p>Flygfoton kan användas för att få överblick över områden eller för att få 
+				en unik vy av ett objekt. Användningsområdena kan vara många. Exempelvis passar flygfoton för husvisningar då man får en helhetsbild
+				av objektet/en som skall visas upp för potentiella kunder. Ett annat exempel kan vara att inspektera byggnaders skick från ovan, exempelvis tak. 
+				Nedan ses några exempel på hur flygfoton kan se ut.</p>
+			</content>
+			</article>
+			<article class="middleContent">
+				<img src="http://demosgis.net/img/thumbs/bmxramp.JPG" srcset="http://demosgis.net/img/thumbs/bmxramp.JPG 1000w, http://demosgis.net/img/thumbs/bmxramp.JPG 2000w" alt="Husbild nr 1" style="float:left;margin-right:2%;margin-bottom:4%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;"></a>	
+				<header>
+					<h2 id="1st"><a href="#" title=foto1">BMX bana innan tävling</a></h2>
+				</header>
+				</br>
+				<content>
+					<p>I detta det första fotot syns startrampen på en BMX bana. Ett sådant foto kan exempelvis användas 
+					i reklamsyfte för ett evenemang. <a href="http://demosgis.net/img/thumbs/bmxramp.JPG" target="_blank"><b>Klicka på bilden för större foto</b></a></p>
+				</content>
+			</article>
+			<article class="bottomContent">
+				<img src="http://demosgis.net/img/thumbs/landskapsbild.JPG" srcset="http://demosgis.net/img/thumbs/landskapsbild.JPG 1000w, http://demosgis.net/img/thumbs/landskapsbild.JPG 2000w" alt="Husbild nr 2" style="float:left;margin-right:2%;margin-bottom:4%;
+				padding-left:1%;padding-right:2%;padding-bottom:4%;width:170px;height:120px;"></a>
+				<header>
+				<h2 id="1st"><a href="#" title="foto2">Landscape Imagery</a></h2>
+				</header>
+				</br>
+				<content>
+				<p>Det andra fotot är taget uppifrån och snett ner och ger inte bara en vacker vy, 
+				utan också en överblick över landskapet.  
+				Användningsområdet blir då ett annat. <a href="http://demosgis.net/img/thumbs/landskapsbild.JPG" target="_blank"><b>Klicka här för större foto</b></a></p>
+				</content>
+			</article>
+		</div>
+	</div>
+	<footer class="mainFooter">
+		<p>Copyright &copy: 2015 <a href="#" title="demosgis">demosgis.net</a></p>
+	</footer>
+
+
+</body>
+  
+</html>

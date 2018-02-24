@@ -1,0 +1,57 @@
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<title>Kontakt</title>
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="css/kontakt.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+<img class="bodyimg" width="auto" src="img/uas.jpg" srcset="img/uas.jpg 1000w, img/uas.jpg 2000w">
+	<header class="mainHeader">	
+	<nav>
+		<ul>
+		<li class="active"><a href="#Kontakt">Kontakt</a></li>
+		<li><a href="http://demosgis.net">Hem</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<div class="mainContent">
+	<div class="content">
+	<article class="topContent">
+	<img class="logo" src="http://demosgis.net/img/logo_utv.png" srcset="http://demosgis.net/img/logo_utv.png 2000w" alt="Tjänster" style="float:left;margin-right:0%;margin-bottom:0%;margin-top:auto;padding-left:0%;padding-right:2%;padding-bottom:2%;width:150px;height:75px;">
+	<header>
+		<h2 id="om"><a href="#" title=om">Kontakt</a></h2>
+	</header>
+	</br>
+	 <content>
+		<p>Du är välkommen att kontakta Demosgis via Epost eller telefon, se kontaktuppgifter nedan.</p>
+	</content>
+	</article>
+	   <article class="middleContent">
+	   <div class="vcard">
+		<p class="fn"><a class="url" href="#">Demosgis</a><p>
+		<p class="adr">
+		<span class="Stad">Ängelholm</span><br>
+		<span class="postal-code">262 54</span><br>
+		<span class="tel">0703 887407</span><br>
+		<span class="email"><a href="mailto:rasmus@demosgis.net">rasmus@demosgis.net</a><br>
+		
+	  </div>
+	</div>
+	  </article>
+	</div>
+	<footer class="mainFooter">
+		<p>Copyright &copy: 2015 <a href="#" title="demosgis">demosgis.net</a></p>
+	</footer>
+
+
+</body>
+  
+</html>

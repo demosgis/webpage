@@ -1,0 +1,673 @@
+body {
+	background-image: url('img/bg.png')
+	color: #000;
+	font-size: 87.5%; /* Base font size is 14px */
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #403B39;
+}
+
+a:hover, a:active {
+	background-color: #403B39;
+	color: #FFF;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;	
+}
+
+.body img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.mainHeader nav {
+	background-color: #979799;
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #3dd21b;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.content {
+	width: 100%;
+	float: left;
+}
+
+.topContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+}
+
+.middleContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.hojdContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.angelholmContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.mapillaryContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.cesiumContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.ndviContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.webbkartaContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.husContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bergContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.threedbuildingContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.fotogammetriContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.networkContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.analysContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.panoFarhultContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.panoKullabergContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.kullaledenContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.volymContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.panoKullabergContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bmxContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.landskapContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.dronedeployKarta {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.dronedeployOrto {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.arkitekt {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 99%;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	background-color: #979799;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #FFF;
+}
+
+.img {
+	max-width: 80%;
+    height: auto;
+}
+
+.iframe, .object, .embed{
+	max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 158px) and (max-width: 600px)
+{
+	.body {
+		clear: both; 
+		margin: 0 auto; 
+		width: 98%;
+		font-size: 90%;
+	}
+	
+	.body img {
+		height: auto;
+        margin: 0 auto;
+	}
+	
+	.logo {
+		width: 100%;
+		height: auto;
+		margin-bottom: 0%;
+	}
+	
+	.mainHeader nav {
+		font-size: 1.143em;
+		height: 120px;
+		line-height: 30px;
+		margin-bottom: 0;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+
+	.mainHeader nav ul {
+		list-style: none; 
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	.mainHeader nav ul li {
+		margin-left: 0 auto;
+		width: 100%;
+		}
+
+	.mainHeader nav a:link, mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+	
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+	
+	.post-info {
+	display: none;
+	}
+
+	.topContent {
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+
+	.middleContent {
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+
+	.bottomContent {
+		margin-top: 3%;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+	
+	.hojdContent {
+		margin-top: 3%;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+    
+    .angelholmContent {
+		margin-top: 3%;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+    
+    .mapillaryContent {
+		margin-top: 3%;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+	
+	.ndviContent {
+		margin-top: 3%;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+    
+    .cesiumContent {
+		margin-top: 3%;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+	
+	.bergContent {
+		margin-top: 3%;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius:5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+    
+    .husContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+    }
+	
+	.threedbuildingContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .fotogammetriContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .networkContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .analysContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .panoFarhultContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .panoKullabergContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .kullaledenContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .volymContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .dronedeployKarta {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .dronedeployOrto {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .arkitekt {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .webbkartaContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+    
+    .panoKullabergContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+    }
+    
+    .bmxContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+    }
+    
+    .landskapContent {
+	background-color: #EAEAEB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+    }
+	
+	.iframe, .object, .embed {
+	max-width: 90%;
+	}
+		
+	.top-sidebar {
+		width: 86%;
+		float: left;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		background-color: #FFF;	
+		margin-top: 4%;
+		margin-left: 0;
+		padding: 0 7%;
+		margin-bottom: 0;		
+	}
+    
+    .img {
+	width: 100%;
+    height: auto;
+    }
+    
+    .iframe, .object, .embed{
+	max-width: 100%;
+    height: auto;
+    }
+	
+	.bottomContent img {
+	float: left;
+	padding: 1 7%;
+	margin-bottom: 1%;
+	margin-top: 4%;
+	}
+	
+	.middleContent img {
+	float: left;
+	padding: 1 7%;
+	margin-bottom: 1%;
+	margin-top: 4%;
+	}
+	
+}
